@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana;
+}
+
+header {
+	margin: 0px auto;
+	margin-top: 0px;
+	width: 960px;
+    height: 100px;
+	background-color: #00E100;
+}
+
+div.contenedor {
+	width: 160px;
+	height: 100px;
+	float: left; 
+	-webkit-transition: height .4s;
+
+}
+div#uno{
+    background-color: #c0392b;   
+}
+
+div#dos{
+    background-color: #E9931A;
+}
+
+div#tres{
+    background-color: #F1C40F;
+}
+
+div#cuatro{
+     background-color: #1abc9c;
+}	
+
+div#cinco{
+    background-color: #1691A2;
+}
+
+div#seis{
+    background-color: #2c3e50;
+}
+
+img.icon{
+	display: block;
+	margin: 10px auto;
+	background-color: rgba(255,255,255,.15);
+	width: 40px;
+    padding: 20px;
+    -webkit-border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+    -webkit-transition: box-shadow .6s;
+}
+
+p.texto{
+     font-size: 1.2em;
+     color: white;
+     text-align: center;
+     padding-top: 10px;
+     opacity: .6;
+     -webkit-transition: padding-top .4s;
+}
+div.contenedor:hover{
+     height: 180px;
+
+}
+
+div.contenedor:hover p.texto{
+     padding-top: 30px;
+     opacity: 1;
+}
+
+div.contenedor:hover img.icon{
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,.6);
+}
